@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "common.h"
 
-@interface Triangle : NSObject
+@interface Shape : NSObject
 {
     ShapeColor fillColor;
     ShapeRect bounds;

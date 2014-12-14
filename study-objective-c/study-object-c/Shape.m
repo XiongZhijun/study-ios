@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 BobXiong. All rights reserved.
 //
 
-#import "Triangle.h"
+#import "Shape.h"
 
-@implementation Triangle
+@implementation Shape
 -(void) setFillColor:(ShapeColor) c {
     fillColor = c;
 }

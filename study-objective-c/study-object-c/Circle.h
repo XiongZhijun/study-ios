@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "common.h"
-#import "Triangle.h"
+#import "Shape.h"
 
-@interface Circle : Triangle
+@interface Circle : Shape
 
 @end
