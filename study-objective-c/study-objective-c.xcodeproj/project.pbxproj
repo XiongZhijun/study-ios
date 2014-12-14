@@ -10,6 +10,7 @@
 		C4CC9FB11A3C7AC600416684 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CC9FB01A3C7AC600416684 /* Circle.m */; };
 		C4CC9FB31A3C7BEF00416684 /* common.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CC9FB21A3C7BEF00416684 /* common.m */; };
 		C4D2AD9C1A3B26870017091B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D2AD9B1A3B26870017091B /* main.m */; };
+		C4E6C76B1A3DCB3000194C29 /* Triangle.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E6C76A1A3DCB3000194C29 /* Triangle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		C4D2AD981A3B26870017091B /* study-objective-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "study-objective-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D2AD9B1A3B26870017091B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4E6C7681A3DC9E000194C29 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		C4E6C7691A3DCB3000194C29 /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		C4E6C76A1A3DCB3000194C29 /* Triangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Triangle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 				C4CC9FB01A3C7AC600416684 /* Circle.m */,
 				C4CC9FB21A3C7BEF00416684 /* common.m */,
 				C4E6C7681A3DC9E000194C29 /* common.h */,
+				C4E6C7691A3DCB3000194C29 /* Triangle.h */,
+				C4E6C76A1A3DCB3000194C29 /* Triangle.m */,
 			);
 			name = "study-objective-c";
 			path = "study-object-c";
@@ -133,6 +138,7 @@
 				C4D2AD9C1A3B26870017091B /* main.m in Sources */,
 				C4CC9FB11A3C7AC600416684 /* Circle.m in Sources */,
 				C4CC9FB31A3C7BEF00416684 /* common.m in Sources */,
+				C4E6C76B1A3DCB3000194C29 /* Triangle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

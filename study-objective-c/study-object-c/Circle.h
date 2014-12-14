@@ -8,14 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "common.h"
+#import "Triangle.h"
 
-@interface Circle : NSObject
-{
-    ShapeColor fillColor;
-    ShapeRect bounds;
-}
+@interface Circle : Triangle
 
-- (void) setFillColor: (ShapeColor) fillColor;
-- (void) setBounds: (ShapeRect) bounds;
-- (void) draw;
 @end
