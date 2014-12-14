@@ -7,24 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4CC9FB11A3C7AC600416684 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CC9FB01A3C7AC600416684 /* Circle.m */; };
+		C4CC9FB31A3C7BEF00416684 /* common.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CC9FB21A3C7BEF00416684 /* common.m */; };
 		C4D2AD9C1A3B26870017091B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D2AD9B1A3B26870017091B /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C4D2AD961A3B26870017091B /* CopyFiles */ = {
+		C4D2AD961A3B26870017091B /* Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 			);
+			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C4CC9FAF1A3C7AC600416684 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		C4CC9FB01A3C7AC600416684 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		C4CC9FB21A3C7BEF00416684 /* common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = common.m; sourceTree = "<group>"; };
 		C4D2AD981A3B26870017091B /* study-objective-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "study-objective-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D2AD9B1A3B26870017091B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4E6C7681A3DC9E000194C29 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				C4D2AD9B1A3B26870017091B /* main.m */,
+				C4CC9FAF1A3C7AC600416684 /* Circle.h */,
+				C4CC9FB01A3C7AC600416684 /* Circle.m */,
+				C4CC9FB21A3C7BEF00416684 /* common.m */,
+				C4E6C7681A3DC9E000194C29 /* common.h */,
 			);
 			name = "study-objective-c";
 			path = "study-object-c";
@@ -72,7 +83,7 @@
 			buildPhases = (
 				C4D2AD941A3B26870017091B /* Sources */,
 				C4D2AD951A3B26870017091B /* Frameworks */,
-				C4D2AD961A3B26870017091B /* CopyFiles */,
+				C4D2AD961A3B26870017091B /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -120,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4D2AD9C1A3B26870017091B /* main.m in Sources */,
+				C4CC9FB11A3C7AC600416684 /* Circle.m in Sources */,
+				C4CC9FB31A3C7BEF00416684 /* common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

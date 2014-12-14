@@ -7,11 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Circle.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        ShapeRect bounds = {1,2,3,4};
+        Circle *circle = [Circle new];
+        [circle setFillColor:kGreenColor];
+        [circle setBounds:bounds];
+        [circle draw];
+        
     }
     return 0;
 }
+
+
